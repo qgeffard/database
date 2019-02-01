@@ -1,0 +1,72 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.sonarlint/
+desktop.ini   
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+*dependency-reduced-pom.xml
+log/
+target/
+
+.springBeans
+**/.factoryPath
+
+# front project #
+#################
+
+**/node_modules
+**/dist
+**/.tmp
+**/.sass-cache
+**/src/main/resources/static/bower_components
+/configurator-web/448c34a56d699c29117adc64c43affeb.woff2
+/configurator-web/89889688147bd7575d6327160d64e760.svg
+/configurator-web/f4769f9bdb7466be65088239c12046d1.eot
+/configurator-web/e18bbf611f2a2e43afc071aa2f4e1512.ttf
+/configurator-web/fa2772327f55d8198301fdb8bcfc8158.woff
+
+# prisca PPO
+*ppo
+
